@@ -1,17 +1,17 @@
-const Engineer = require ('../lib/Engineer');
+const Intern = require ('../lib/Intern');
 
-test ('creates engineer object', () => {
-    const engineer = new Engineer ('Lloyd', 1, 'llting592@gmail.com', 'llting592');
-    expect(engineer.github).toEqual(expect.any(String));
+test ('creates intern object', () => {
+    const intern = new Intern ('Lloyd', 1, 'llting592@gmail.com', 'UCLA');
+    expect(intern.school).toEqual(expect.any(String));
 });
 
-//gets github from getGithub() in Engineer.js
-test('gets github name', ()=>{
-    const engineer = new Engineer ('Lloyd', 1, 'llting592@gmail.com', 'llting592');
-    expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
+//gets school from getSchool in Intern.js
+test('gets school name', ()=>{
+    const intern = new Intern ('Lloyd', 1, 'llting592@gmail.com', 'UCLA');
+    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
 });
 
 test('gets employee role', () => {
-    const engineer = new Engineer ('Lloyd', 1, 'llting592@gmail.com', 'llting592');
-    expect(engineer.getRole()).toEqual('Engineer');
+    const intern = new Intern ('Lloyd', 1, 'llting592@gmail.com', 'UCLA');
+    expect(intern.getRole()).toEqual('Intern');
 });
