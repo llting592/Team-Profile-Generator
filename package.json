@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.5.1"
+  },
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "team profile generator app",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llting592/Team-Profile-Generator.git"
+  },
+  "author": "Lloyd Ting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llting592/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/llting592/Team-Profile-Generator#readme"
+}
