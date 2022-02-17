@@ -17,7 +17,7 @@ const generateEngineer = function (engineer){
       <h3>Engineer</h3>
       <p class="id">ID: ${engineer.id}</p>
       <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-      <p class="office-number">Github: <a href="https://github.com/${engineer.github}">${engineer.officeNumber}</a></p>
+      <p class="office-number">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
     </div>
   </div>`;
 }
